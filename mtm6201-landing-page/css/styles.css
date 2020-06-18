@@ -1,0 +1,137 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    margin-top: 0;
+    background-color: hsl(240, 100%, 98%);
+    background-image: url(../img/scooter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    
+}
+/* Border on both Forms */
+fieldset{
+    border: none;
+}
+
+/* Apply Now Form */
+form{
+    border-radius: 30px;
+}
+
+.box form{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 5px 5px grey;
+    width: 400px;
+    height: 100%;
+    
+}
+ 
+.box h2{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.form-text{
+    background-color: whitesmoke;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Drive with us Button */
+input[type="submit"]{
+    background-color: #57eeab;
+    border-radius: 10px;
+    width: 100%;
+    height: 3rem;
+    border: white;
+    font-size: 2rem;
+}
+
+/* "Fine" is the fine print at the bottom of the form */
+.fine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fine p{
+    color: #ff8480;
+}
+
+/* Footer */
+.footer{
+    padding: 2rem 2rem;
+    margin: 0 -1rem;
+    background-color: #fffd8c;
+}
+/* Hours & City */
+.calculate{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.form-text2{
+    background-color: whitesmoke;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Calculate Button */
+input[type="submit2"]{
+    background-color: #ff8480;
+    border-radius: 10px;
+    width: 400px;
+    height: 2rem;
+    border: white;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr);
+    margin: 0 1rem;
+}
+/* Tablet View */
+@media (min-width: 600px){
+    .box form{
+        margin-left: 5rem;
+        
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .social{
+        display: grid;
+        justify-content: center;
+    }
+}
+@media (min-width: 1000px){
+    header{
+        display: grid;
+        grid-template-columns: 2fr 2fr 4fr;
+        grid-template-rows: 2fr;
+    }
+
+
+}
+
