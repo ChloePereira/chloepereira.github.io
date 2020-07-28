@@ -1,16 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chloe Pereira</title>
-</head>
-<body>
-    <h1>Chloe Pereira</h1>
-    <h1>Responsive Web Design 2: MTM6201</h1>
-    <h1>Username: ChloePereira</h1>
-    <h3>Over the break I attempted to bleach my dark roots to blonde. Turns out there are professional hair dressers for a reason because I now have orange hair. This caused me to grow a hat collection, so I guess it's not all bad. </h3>
-    
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+      <div class="container">
+        <h1 class="display-2">Bootstrap This!</h1>
+        <!--Nav is required-->
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        <h2 class="p-3 mb-2 bg-info text-white">What Is Bootstrap?</u></h2>
+            <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        
+        <h2 class="p-3 mb-2 bg-info text-white">Mobile First</h2>
+            <p>Bootstrap includes a powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.</p>
+        
+        <h2 class="p-3 mb-2 bg-info text-white">Typography</h2>
+                <p>Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a display heading—a larger, slightly more opinionated heading style. Keep in mind these headings are not responsive by default, but it’s possible to enable responsive font sizes.</p>
+            <h4 class="text-info">Display Property</h4>
+            <h6 class="display-1">Display 1</h6>
+            <h6 class="display-2">Display 2</h6>
+            <h6 class="display-3">Display 3</h6>
+            <h6 class="display-4">Display 4</h6>
+
+        <h4 class="text-info">Text Elements</h4>
+            <p><mark>highlight text</mark></p>
+            <p><del>deleted text</del></p>
+            <p><u>underline text</u></p>
+            <p><small>fine print text</small></p>
+            <p><strong>bold text</strong></p>
+            <p><em>italicized text</em></p>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Components Library</h2>
+            <p>Bootstrap comes with an extensive components library that includes buttons and lists to carousels and modals. Components are easy to integrate into any site and require no knowledge of JavaScript to use.</p>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Components</h2>
+            <p>Bootstrap comes with nearly two dozen components that are ready to use right out of the box.</p>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Alerts</h2>
+            <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+
+        <h5>
+            <small class="text-muted">Example</small>
+        </h5>
+        <!--Examples of an Alert-->
+        <div class="alert alert-primary" role="alert">
+            A SIMPLE ALERT!
+        </div>
+        <div class="alert alert-danger" role="alert">
+            A SIMPLE ALERT!
+        </div>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Breadcrumbs</h2>
+            <p>Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
+
+        <h2 class="p-3 mb-2 bg-info text-white">List Group</h2>
+            <p>List groups are a flexible and powerful component for displaying a series of content.</p>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Colors</h2>
+            <p>Allows change in colours for different aspects of the design.</p>
+        <h4 class="text-info">Text Color</h4>
+
+        <!--Lowers opactiy of text-->
+        <h5>
+            <small class="text-muted">Example</small>
+        </h5>
+        <!--Make sure text matches color-->
+            <p class="text-primary">.text-primary=BLUE</p>
+            <p class="text-secondary">.text-secondary=GREY</p>
+            <p class="text-success">.text-success=GREEN</p>
+            <p class="text-danger">.text-danger=RED</p>
+            <p class="text-warning">.text-warning=YELLOW</p>
+            <p class="text-info">.text-info=LIGHT BLUE</p>
+        
+
+        <h2 class="p-3 mb-2 bg-info text-white">Buttons</h2>
+            <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+        <h5>
+            <small class="text-muted">Examples</small>
+        </h5>
+            <button type="button" class="btn btn-success">Success=Green</button>
+            <button type="button" class="btn btn-danger">Danger=Red</button>
+            <button type="button" class="btn btn-warning">Warning=Yellow</button>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Cards</h2>
+            <p>A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.</p>
+
+            <h5>
+                <small class="text-muted">Example</small>
+            </h5>
+
+            <div class="card">
+                <div class="card-body">
+                  Text within a card.
+                </div>
+            </div>
+
+            <h5>
+                <small class="text-muted">Example</small>
+            </h5>
+
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text">Text with image in a card.</p>
+                </div>
+            </div>
+
+        <h2 class="p-3 mb-2 bg-info text-white">Resources</h2>
+            <p>Reference from webpage below.</p>
+            <a class="nav-link active" href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">https://getbootstrap.com/docs/4.4/getting-started/introduction/</a>
+            <h5><small class="text-muted">Click Link For More Info</small></h5>
+
+        
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+
+  </footer>
 </html>
