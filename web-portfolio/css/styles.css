@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* HEADING */
+header {
+    background-image: url("../img/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 3.5rem;
+    font-weight: 100;    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(160, 158, 158);
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+/* NAV */
+ul{
+    list-style: none;
+    background-color: #A8DBED;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+a.active {
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/* ADJUST ACTIVE AND HOVER*/
+
+nav a:link,
+nav a:visited {
+    color: white;
+    text-decoration: none
+
+}
+nav a:hover,
+nav a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* HEADINGS FOR EACH PAGE */
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #A8DBED;
+    text-align: center;
+}
+
+/* PARAGRAPHS FOR EACH PAGE */
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #A8DBED;
+    text-align: center;
+}
+
+/* LOGOS ON HOME PAGE */
+.logo1 {
+    width: 100%;
+    height: auto;
+}
+
+.logo2 {
+    width: 0%;
+    height: 0%;
+}
+
+/* PORTFOLIO PAGE */
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: #A8DBED;
+    text-align: center;
+
+}
+
+/* LOGO IMAGES */
+.gemelli {
+    width: 100%;
+    height: auto;
+}
+
+.wismer {
+    width: 100%;
+    height: auto;
+}
+
+.wismer2 {
+    width: 100%;
+    height: auto;
+}
+
+.thomson {
+    width: 100%;
+    height: auto;
+}
+
+/* PRINT IMAGES */
+
+.ny {
+    width: 100%;
+    height: auto;
+}
+
+.bp {
+    width: 100%;
+    height: auto;
+    
+}
+
+.shirt {
+    width: 100%;
+    height: auto;
+}
+
+/* WEB */
+.app {
+    display: inline-block;
+    width: 49%;
+    height: auto;
+
+}
+
+/* ILLUSTRATIONS */
+.illustrations {
+    width: 100%;
+    height: auto;
+}
+
+/* TABLET VIEW */
+@media(min-width: 650px){
+    li {
+        display: inline-block;
+    }
+/* HOME PAGE */
+    .logo1 {
+        width: 49%;
+        height: auto;
+    }
+
+    .logo2 {
+        width: 49%;
+        height: auto;
+    }
+
+/* PORTFOLIO PAGE */
+    h4 {
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem;
+        display: inline-block;
+        text-align: center;
+    }
+    .gemelli {
+        width: 49%;
+        height: auto;
+    }
+    .wismer {
+        width: 48%;
+        height: auto;
+
+    }
+    .bp {
+        width: 49%;
+        height: auto;
+    }
+
+}
+
+/* DESKTOP VIEW */
+@media(min-width: 978px){
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+/* HOME PAGE */
+    .logos {
+        padding-left: 25rem;
+        padding-right: 10rem;
+    }
+    .logo1 {
+        width: 30%;
+        height: auto;
+        
+    }
+
+    .logo2 {
+        width: 30%;
+        height: auto;
+    }
+/* PORTFOLIO PAGE */
+    .ny {
+        width: 80%;
+        height: auto;
+        padding-left: 7rem;
+    }
+    .shirt {
+        width: 49%;
+        height: auto;
+    }
+
+    .app {
+        width: 32%;
+        height: auto;
+    }
+}
